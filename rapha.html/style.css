@@ -1,0 +1,150 @@
+/* Resetando e aplicando estilo padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo do Header */
+header {
+    background-color: #f5a623;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+header .btn {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+header .btn:hover {
+    background-color: #e55d4d;
+}
+
+/* Seções gerais */
+.section {
+    padding: 60px 20px;
+}
+
+.bg-light {
+    background-color: #f3f3f3;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Seção Sobre */
+#sobre p {
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+/* Estilo para o projeto */
+.project-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 40px;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+}
+
+.project-info {
+    padding: 20px;
+}
+
+.project-info h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.project-info p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.project-info a {
+    color: #f5a623;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.project-info a:hover {
+    color: #e55d4d;
+}
+
+/* Contato */
+#contato a {
+    color: #f5a623;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#contato a:hover {
+    color: #e55d4d;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    header p {
+        font-size: 1.1em;
+    }
+
+    .section {
+        padding: 40px 20px;
+    }
+}
